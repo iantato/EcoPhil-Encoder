@@ -5,4 +5,5 @@
 .vscode
 
 # User-specific data.
+.env
 data
