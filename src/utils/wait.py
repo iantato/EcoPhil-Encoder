@@ -5,7 +5,7 @@ def uniform_delay(delay_range: str) -> float:
     Generate a random delay between two values.
 
     Args:
-        delay_range: A preset string ('short', 'medium', 'long') to determine the range of the delay.
+        delay_range (str): A preset string ('short', 'medium', 'long') to determine the range of the delay
 
     Returns:
         float: The actual delay time.

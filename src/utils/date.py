@@ -6,7 +6,7 @@ def american_date(date_str: Union[str, List[str]]) -> Union[date, List[date]]:
     Convert American date string (mm-dd-yy) to date object.
 
     Args:
-        date_str: Single date string 'mm-dd-yy' or list of date strings.
+        date_str (Union[str, List[str]]): A single date string or a list of date strings
 
     Returns:
         Single date object or list of date objects.
